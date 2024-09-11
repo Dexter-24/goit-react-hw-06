@@ -1,4 +1,9 @@
-.container {
-  align-self: start;
-  width: 400px;
+.searhForm {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 4px;
+  align-items: flex-start;
+  padding: 12px;
+  margin-bottom: 20px;
 }

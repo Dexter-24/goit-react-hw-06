@@ -1,12 +1,24 @@
-.form {
+.formAddContact {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 20px;
   border: 2px solid black;
-  padding: 15px;
-  width: 400px;
+  padding: 12px;
+  border-radius: 4px;
 }
 
-label {
-  align-self: start;
+.errorText {
+  color: red;
+}
+
+.formaBtn {
+  margin: 7px auto;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 20px;
+  background-color: rgb(195, 194, 191);
+  cursor: pointer;
 }
